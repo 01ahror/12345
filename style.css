@@ -1,0 +1,65 @@
+@media screen and (max-width: 1440px) and ( min-width:750px){
+    .ahror{
+        flex-wrap: wrap;
+        gap:40px;
+        
+    }
+    
+    .c{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    } 
+    .gabburger{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 750px) and ( min-width:400px){
+    .ahror{
+        flex-wrap: wrap;
+        gap:40px;
+        
+    }
+    .abu{
+        justify-content: center;
+    }
+    
+    .c{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    } 
+    .gabburger{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:400px) and (min-width: 280px) {
+    .ahror{
+       flex-wrap: wrap;
+       gap :30px;
+       justify-content: center; 
+    } 
+    .c{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    } 
+    .list{
+        display: none;
+    }
+    .gabburger{
+        display: block;
+        width: 20px;
+        height: 15px;
+        margin: left 25px; 
+    }
+    .xinkali{
+        display: none;
+    }
+    .manti{
+
+    }
+}
